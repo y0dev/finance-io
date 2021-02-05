@@ -23,7 +23,7 @@ _sheet.months.forEach(element => {
 });
 
 const sheetTitle = month;
-const print = true;
+const print = false;
 
 console.log(sheetTitle,_sheet.key);
 async function accessSpreadsheet(sheetTitle,update_loan=false,print=false) {
@@ -42,7 +42,7 @@ async function accessSpreadsheet(sheetTitle,update_loan=false,print=false) {
   if (update_loan)
   {
     console.log('Update Loan');
-    const loanSpreadsheet = new GoogleSpreadsheet('1GOrZZDD3Vyq6Ipp8rxD6EMguDbKS2fA78qlYW4FxG8U');
+    const loanSpreadsheet = new GoogleSpreadsheet(creds.sheet_names[2021]);
     await loanSpreadsheet.useServiceAccountAuth({
       client_email: creds.client_email,
       private_key:  creds.private_key,
