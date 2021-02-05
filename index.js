@@ -8,19 +8,10 @@ const sum = require('./libs/sums');
 const sheet_info = require('./json/sheet_info.json');
 
 const update_sheet = require('./libs/helpers/update_sheet.js');
-let _sheet,
-month = 'January';
-sheet_info.forEach(element => {
-  if (element.year === 2021) {
-    _sheet = element;
-  }
-});
+let _sheet = sheet_info[2021]
+// Month - 1 to get index of month needed (ex: January = 1; index = 0)
+month = _sheet.months[2-1];
 
-_sheet.months.forEach(element => {
-  if (element === month || element.includes(month) ) {
-    month = element;
-  }
-});
 
 const sheetTitle = month;
 const print = false;
@@ -82,29 +73,6 @@ async function accessSpreadsheet(sheetTitle,update_loan=false,print=false) {
     update_sheet(sum,doc,sheet,multipleSheets,print);
 
   }
-  // let sum = await exp.getStoresWith('Costco');
-  // console.log(`Spent ${sum[0]} at ${sum[1]}`.green);
-  // let set = new Settings(doc);
-  // set.logSettings();
-  // getSheets(doc);
-
-  // const rows
-  // const info = doc.getInfo();
-  // const sheet = info.worksheets[0];
-  // console.log(info);
-  // console.log('Title: ${sheet.title}, Rows: ${sheet.rowCount}');
-
-  /*
-  const newSheet = doc.addSheet({
-    title: 'Testing',
-    headerValues: ['Pet Name','Animal Type']
-  });
-
-  const row = (await newSheet).addRow({
-    'Pet Name': 'Skip',
-    'Animal Type': 'Dog',
-  });
-  */
 }
 
 //------------MAIN------------//
