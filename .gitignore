@@ -3,6 +3,9 @@
 creds.json
 client_secret.json
 
+spreadsheet.js
+sample.js
+
 *.txt
 
 json/
