@@ -26,7 +26,7 @@ module.exports = (sum,doc,sheet,multipleSheets,print) => {
       sheet.saveUpdatedCells();
     });
 
-    sum.getSumOfCategories(sheet,multipleSheets,print)
+    sum.getSumOfCategories(sheet_title,multipleSheets,print)
     .then(result => {
       const column = 'I';
       let row = 1;
@@ -127,7 +127,7 @@ module.exports = (sum,doc,sheet,multipleSheets,print) => {
       sheet.saveUpdatedCells();
     });
 
-    sum.getSumOfSubCategories(sheet,multipleSheets,print)
+    sum.getSumOfSubCategories(sheet_title,multipleSheets,print)
     .then(results => {
       const column = 'J';
       let row = 1;
@@ -164,7 +164,7 @@ module.exports = (sum,doc,sheet,multipleSheets,print) => {
       sheet.saveUpdatedCells();
     });
 
-    sum.getSumOfStores(sheet,multipleSheets,print)
+    sum.getSumOfStores(sheet_title,multipleSheets,print)
     .then(result => {
       const column = 'K';
       let row = 1;
