@@ -3,4 +3,8 @@
 creds.json
 client_secret.json
 
+*.txt
+
 json/
+
+
