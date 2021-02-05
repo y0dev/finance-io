@@ -1,5 +1,6 @@
-# Object file
-*.o
+.DS_Store
 
-# Ada Library Information
-*.ali
+creds.json
+client_secret.json
+
+json/

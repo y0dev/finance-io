@@ -1,0 +1,2029 @@
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object]
+    ],
+    _columnMetadata: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ]
+  },
+  _row: 10,
+  _column: 0,
+  _rawData: {
+    userEnteredValue: { numberValue: 44018 },
+    effectiveValue: { numberValue: 44018 },
+    formattedValue: '(Mon) 07/6/20',
+    userEnteredFormat: { numberFormat: [Object], horizontalAlignment: 'RIGHT' },
+    effectiveFormat: {
+      numberFormat: [Object],
+      backgroundColor: [Object],
+      padding: [Object],
+      horizontalAlignment: 'RIGHT',
+      verticalAlignment: 'BOTTOM',
+      wrapStrategy: 'OVERFLOW_CELL',
+      textFormat: [Object],
+      hyperlinkDisplayType: 'PLAIN_TEXT',
+      backgroundColorStyle: [Object]
+    }
+  },
+  _draftData: {},
+  _error: null
+}
+GoogleSpreadsheetCell {
+  _sheet: GoogleSpreadsheetWorksheet {
+    _spreadsheet: GoogleSpreadsheet {
+      spreadsheetId: '1-Fp-bAL-CtxxRjG6Zge9ASXlP2orTaRCESg3fuolqvI',
+      authMode: 'JWT',
+      _rawSheets: [Object],
+      _rawProperties: [Object],
+      axios: [Function],
+      jwtClient: [JWT]
+    },
+    _rawProperties: {
+      sheetId: 1080550584,
+      title: 'July2020',
+      index: 3,
+      sheetType: 'GRID',
+      gridProperties: [Object]
+    },
+    _cells: [
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array]
+    ],
+    _rowMetadata: [
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object]
+    ],
+    _columnMetadata: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ]
+  },
+  _row: 11,
+  _column: 0,
+  _rawData: {
+    userEnteredValue: { numberValue: 44019 },
+    effectiveValue: { numberValue: 44019 },
+    formattedValue: '(Tue) 07/7/20',
+    userEnteredFormat: { numberFormat: [Object], horizontalAlignment: 'RIGHT' },
+    effectiveFormat: {
+      numberFormat: [Object],
+      backgroundColor: [Object],
+      padding: [Object],
+      horizontalAlignment: 'RIGHT',
+      verticalAlignment: 'BOTTOM',
+      wrapStrategy: 'OVERFLOW_CELL',
+      textFormat: [Object],
+      hyperlinkDisplayType: 'PLAIN_TEXT',
+      backgroundColorStyle: [Object]
+    }
+  },
+  _draftData: {},
+  _error: null
+}
+GoogleSpreadsheetCell {
+  _sheet: GoogleSpreadsheetWorksheet {
+    _spreadsheet: GoogleSpreadsheet {
+      spreadsheetId: '1-Fp-bAL-CtxxRjG6Zge9ASXlP2orTaRCESg3fuolqvI',
+      authMode: 'JWT',
+      _rawSheets: [Object],
+      _rawProperties: [Object],
+      axios: [Function],
+      jwtClient: [JWT]
+    },
+    _rawProperties: {
+      sheetId: 1080550584,
+      title: 'July2020',
+      index: 3,
+      sheetType: 'GRID',
+      gridProperties: [Object]
+    },
+    _cells: [
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array]
+    ],
+    _rowMetadata: [
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object]
+    ],
+    _columnMetadata: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ]
+  },
+  _row: 12,
+  _column: 0,
+  _rawData: {
+    userEnteredValue: { numberValue: 44019 },
+    effectiveValue: { numberValue: 44019 },
+    formattedValue: '(Tue) 07/7/20',
+    userEnteredFormat: { numberFormat: [Object], horizontalAlignment: 'RIGHT' },
+    effectiveFormat: {
+      numberFormat: [Object],
+      backgroundColor: [Object],
+      padding: [Object],
+      horizontalAlignment: 'RIGHT',
+      verticalAlignment: 'BOTTOM',
+      wrapStrategy: 'OVERFLOW_CELL',
+      textFormat: [Object],
+      hyperlinkDisplayType: 'PLAIN_TEXT',
+      backgroundColorStyle: [Object]
+    }
+  },
+  _draftData: {},
+  _error: null
+}
+GoogleSpreadsheetCell {
+  _sheet: GoogleSpreadsheetWorksheet {
+    _spreadsheet: GoogleSpreadsheet {
+      spreadsheetId: '1-Fp-bAL-CtxxRjG6Zge9ASXlP2orTaRCESg3fuolqvI',
+      authMode: 'JWT',
+      _rawSheets: [Object],
+      _rawProperties: [Object],
+      axios: [Function],
+      jwtClient: [JWT]
+    },
+    _rawProperties: {
+      sheetId: 1080550584,
+      title: 'July2020',
+      index: 3,
+      sheetType: 'GRID',
+      gridProperties: [Object]
+    },
+    _cells: [
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array]
+    ],
+    _rowMetadata: [
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object]
+    ],
+    _columnMetadata: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ]
+  },
+  _row: 13,
+  _column: 0,
+  _rawData: {
+    userEnteredValue: { numberValue: 44021 },
+    effectiveValue: { numberValue: 44021 },
+    formattedValue: '(Thu) 07/9/20',
+    userEnteredFormat: { numberFormat: [Object], horizontalAlignment: 'RIGHT' },
+    effectiveFormat: {
+      numberFormat: [Object],
+      backgroundColor: [Object],
+      padding: [Object],
+      horizontalAlignment: 'RIGHT',
+      verticalAlignment: 'BOTTOM',
+      wrapStrategy: 'OVERFLOW_CELL',
+      textFormat: [Object],
+      hyperlinkDisplayType: 'PLAIN_TEXT',
+      backgroundColorStyle: [Object]
+    }
+  },
+  _draftData: {},
+  _error: null
+}
+GoogleSpreadsheetCell {
+  _sheet: GoogleSpreadsheetWorksheet {
+    _spreadsheet: GoogleSpreadsheet {
+      spreadsheetId: '1-Fp-bAL-CtxxRjG6Zge9ASXlP2orTaRCESg3fuolqvI',
+      authMode: 'JWT',
+      _rawSheets: [Object],
+      _rawProperties: [Object],
+      axios: [Function],
+      jwtClient: [JWT]
+    },
+    _rawProperties: {
+      sheetId: 1080550584,
+      title: 'July2020',
+      index: 3,
+      sheetType: 'GRID',
+      gridProperties: [Object]
+    },
+    _cells: [
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array]
+    ],
+    _rowMetadata: [
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object]
+    ],
+    _columnMetadata: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ]
+  },
+  _row: 14,
+  _column: 0,
+  _rawData: {
+    userEnteredValue: { numberValue: 44022 },
+    effectiveValue: { numberValue: 44022 },
+    formattedValue: '(Fri) 07/10/20',
+    userEnteredFormat: { numberFormat: [Object], horizontalAlignment: 'RIGHT' },
+    effectiveFormat: {
+      numberFormat: [Object],
+      backgroundColor: [Object],
+      padding: [Object],
+      horizontalAlignment: 'RIGHT',
+      verticalAlignment: 'BOTTOM',
+      wrapStrategy: 'OVERFLOW_CELL',
+      textFormat: [Object],
+      hyperlinkDisplayType: 'PLAIN_TEXT',
+      backgroundColorStyle: [Object]
+    }
+  },
+  _draftData: {},
+  _error: null
+}
+GoogleSpreadsheetCell {
+  _sheet: GoogleSpreadsheetWorksheet {
+    _spreadsheet: GoogleSpreadsheet {
+      spreadsheetId: '1-Fp-bAL-CtxxRjG6Zge9ASXlP2orTaRCESg3fuolqvI',
+      authMode: 'JWT',
+      _rawSheets: [Object],
+      _rawProperties: [Object],
+      axios: [Function],
+      jwtClient: [JWT]
+    },
+    _rawProperties: {
+      sheetId: 1080550584,
+      title: 'July2020',
+      index: 3,
+      sheetType: 'GRID',
+      gridProperties: [Object]
+    },
+    _cells: [
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array]
+    ],
+    _rowMetadata: [
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object]
+    ],
+    _columnMetadata: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ]
+  },
+  _row: 15,
+  _column: 0,
+  _rawData: {
+    userEnteredValue: { numberValue: 44024 },
+    effectiveValue: { numberValue: 44024 },
+    formattedValue: '(Sun) 07/12/20',
+    userEnteredFormat: { numberFormat: [Object], horizontalAlignment: 'RIGHT' },
+    effectiveFormat: {
+      numberFormat: [Object],
+      backgroundColor: [Object],
+      padding: [Object],
+      horizontalAlignment: 'RIGHT',
+      verticalAlignment: 'BOTTOM',
+      wrapStrategy: 'OVERFLOW_CELL',
+      textFormat: [Object],
+      hyperlinkDisplayType: 'PLAIN_TEXT',
+      backgroundColorStyle: [Object]
+    }
+  },
+  _draftData: {},
+  _error: null
+}
+GoogleSpreadsheetCell {
+  _sheet: GoogleSpreadsheetWorksheet {
+    _spreadsheet: GoogleSpreadsheet {
+      spreadsheetId: '1-Fp-bAL-CtxxRjG6Zge9ASXlP2orTaRCESg3fuolqvI',
+      authMode: 'JWT',
+      _rawSheets: [Object],
+      _rawProperties: [Object],
+      axios: [Function],
+      jwtClient: [JWT]
+    },
+    _rawProperties: {
+      sheetId: 1080550584,
+      title: 'July2020',
+      index: 3,
+      sheetType: 'GRID',
+      gridProperties: [Object]
+    },
+    _cells: [
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array]
+    ],
+    _rowMetadata: [
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object]
+    ],
+    _columnMetadata: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ]
+  },
+  _row: 16,
+  _column: 0,
+  _rawData: {
+    userEnteredValue: { numberValue: 44025 },
+    effectiveValue: { numberValue: 44025 },
+    formattedValue: '(Mon) 07/13/20',
+    userEnteredFormat: { numberFormat: [Object], horizontalAlignment: 'RIGHT' },
+    effectiveFormat: {
+      numberFormat: [Object],
+      backgroundColor: [Object],
+      padding: [Object],
+      horizontalAlignment: 'RIGHT',
+      verticalAlignment: 'BOTTOM',
+      wrapStrategy: 'OVERFLOW_CELL',
+      textFormat: [Object],
+      hyperlinkDisplayType: 'PLAIN_TEXT',
+      backgroundColorStyle: [Object]
+    }
+  },
+  _draftData: {},
+  _error: null
+}
+GoogleSpreadsheetCell {
+  _sheet: GoogleSpreadsheetWorksheet {
+    _spreadsheet: GoogleSpreadsheet {
+      spreadsheetId: '1-Fp-bAL-CtxxRjG6Zge9ASXlP2orTaRCESg3fuolqvI',
+      authMode: 'JWT',
+      _rawSheets: [Object],
+      _rawProperties: [Object],
+      axios: [Function],
+      jwtClient: [JWT]
+    },
+    _rawProperties: {
+      sheetId: 1080550584,
+      title: 'July2020',
+      index: 3,
+      sheetType: 'GRID',
+      gridProperties: [Object]
+    },
+    _cells: [
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array]
+    ],
+    _rowMetadata: [
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object]
+    ],
+    _columnMetadata: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ]
+  },
+  _row: 17,
+  _column: 0,
+  _rawData: {
+    userEnteredValue: { numberValue: 44025 },
+    effectiveValue: { numberValue: 44025 },
+    formattedValue: '(Mon) 07/13/20',
+    userEnteredFormat: { numberFormat: [Object], horizontalAlignment: 'RIGHT' },
+    effectiveFormat: {
+      numberFormat: [Object],
+      backgroundColor: [Object],
+      padding: [Object],
+      horizontalAlignment: 'RIGHT',
+      verticalAlignment: 'BOTTOM',
+      wrapStrategy: 'OVERFLOW_CELL',
+      textFormat: [Object],
+      hyperlinkDisplayType: 'PLAIN_TEXT',
+      backgroundColorStyle: [Object]
+    }
+  },
+  _draftData: {},
+  _error: null
+}
+GoogleSpreadsheetCell {
+  _sheet: GoogleSpreadsheetWorksheet {
+    _spreadsheet: GoogleSpreadsheet {
+      spreadsheetId: '1-Fp-bAL-CtxxRjG6Zge9ASXlP2orTaRCESg3fuolqvI',
+      authMode: 'JWT',
+      _rawSheets: [Object],
+      _rawProperties: [Object],
+      axios: [Function],
+      jwtClient: [JWT]
+    },
+    _rawProperties: {
+      sheetId: 1080550584,
+      title: 'July2020',
+      index: 3,
+      sheetType: 'GRID',
+      gridProperties: [Object]
+    },
+    _cells: [
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array]
+    ],
+    _rowMetadata: [
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object]
+    ],
+    _columnMetadata: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ]
+  },
+  _row: 18,
+  _column: 0,
+  _rawData: {
+    userEnteredValue: { numberValue: 44026 },
+    effectiveValue: { numberValue: 44026 },
+    formattedValue: '(Tue) 07/14/20',
+    userEnteredFormat: { numberFormat: [Object], horizontalAlignment: 'RIGHT' },
+    effectiveFormat: {
+      numberFormat: [Object],
+      backgroundColor: [Object],
+      padding: [Object],
+      horizontalAlignment: 'RIGHT',
+      verticalAlignment: 'BOTTOM',
+      wrapStrategy: 'OVERFLOW_CELL',
+      textFormat: [Object],
+      hyperlinkDisplayType: 'PLAIN_TEXT',
+      backgroundColorStyle: [Object]
+    }
+  },
+  _draftData: {},
+  _error: null
+}
+GoogleSpreadsheetCell {
+  _sheet: GoogleSpreadsheetWorksheet {
+    _spreadsheet: GoogleSpreadsheet {
+      spreadsheetId: '1-Fp-bAL-CtxxRjG6Zge9ASXlP2orTaRCESg3fuolqvI',
+      authMode: 'JWT',
+      _rawSheets: [Object],
+      _rawProperties: [Object],
+      axios: [Function],
+      jwtClient: [JWT]
+    },
+    _rawProperties: {
+      sheetId: 1080550584,
+      title: 'July2020',
+      index: 3,
+      sheetType: 'GRID',
+      gridProperties: [Object]
+    },
+    _cells: [
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array]
+    ],
+    _rowMetadata: [
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object]
+    ],
+    _columnMetadata: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ]
+  },
+  _row: 19,
+  _column: 0,
+  _rawData: {
+    userEnteredValue: { numberValue: 44026 },
+    effectiveValue: { numberValue: 44026 },
+    formattedValue: '(Tue) 07/14/20',
+    userEnteredFormat: { numberFormat: [Object], horizontalAlignment: 'RIGHT' },
+    effectiveFormat: {
+      numberFormat: [Object],
+      backgroundColor: [Object],
+      padding: [Object],
+      horizontalAlignment: 'RIGHT',
+      verticalAlignment: 'BOTTOM',
+      wrapStrategy: 'OVERFLOW_CELL',
+      textFormat: [Object],
+      hyperlinkDisplayType: 'PLAIN_TEXT',
+      backgroundColorStyle: [Object]
+    }
+  },
+  _draftData: {},
+  _error: null
+}
+GoogleSpreadsheetCell {
+  _sheet: GoogleSpreadsheetWorksheet {
+    _spreadsheet: GoogleSpreadsheet {
+      spreadsheetId: '1-Fp-bAL-CtxxRjG6Zge9ASXlP2orTaRCESg3fuolqvI',
+      authMode: 'JWT',
+      _rawSheets: [Object],
+      _rawProperties: [Object],
+      axios: [Function],
+      jwtClient: [JWT]
+    },
+    _rawProperties: {
+      sheetId: 1080550584,
+      title: 'July2020',
+      index: 3,
+      sheetType: 'GRID',
+      gridProperties: [Object]
+    },
+    _cells: [
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array]
+    ],
+    _rowMetadata: [
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object]
+    ],
+    _columnMetadata: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ]
+  },
+  _row: 20,
+  _column: 0,
+  _rawData: {
+    userEnteredValue: { numberValue: 44027 },
+    effectiveValue: { numberValue: 44027 },
+    formattedValue: '(Wed) 07/15/20',
+    userEnteredFormat: { numberFormat: [Object], horizontalAlignment: 'RIGHT' },
+    effectiveFormat: {
+      numberFormat: [Object],
+      backgroundColor: [Object],
+      padding: [Object],
+      horizontalAlignment: 'RIGHT',
+      verticalAlignment: 'BOTTOM',
+      wrapStrategy: 'OVERFLOW_CELL',
+      textFormat: [Object],
+      hyperlinkDisplayType: 'PLAIN_TEXT',
+      backgroundColorStyle: [Object]
+    }
+  },
+  _draftData: {},
+  _error: null
+}
+GoogleSpreadsheetCell {
+  _sheet: GoogleSpreadsheetWorksheet {
+    _spreadsheet: GoogleSpreadsheet {
+      spreadsheetId: '1-Fp-bAL-CtxxRjG6Zge9ASXlP2orTaRCESg3fuolqvI',
+      authMode: 'JWT',
+      _rawSheets: [Object],
+      _rawProperties: [Object],
+      axios: [Function],
+      jwtClient: [JWT]
+    },
+    _rawProperties: {
+      sheetId: 1080550584,
+      title: 'July2020',
+      index: 3,
+      sheetType: 'GRID',
+      gridProperties: [Object]
+    },
+    _cells: [
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array],
+      [Array], [Array], [Array], [Array], [Array]
+    ],
+    _rowMetadata: [
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object]
+    ],
+    _columnMetadata: [
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object], [Object], [Object],
+      [Object]
+    ]
+  },
+  _row: 21,
+  _column: 0,
+  _rawData: {
+    userEnteredValue: { numberValue: 44027 },
+    effectiveValue: { numberValue: 44027 },
+    formattedValue: '(Wed) 07/15/20',
+    userEnteredFormat: { numberFormat: [Object], horizontalAlignment: 'RIGHT' },
+    effectiveFormat: {
+      numberFormat: [Object],
+      backgroundColor: [Object],
+      padding: [Object],
+      horizontalAlignment: 'RIGHT',
+      verticalAlignment: 'BOTTOM',
+      wrapStrategy: 'OVERFLOW_CELL',
+      textFormat: [Object],
+      hyperlinkDisplayType: 'PLAIN_TEXT',
+      backgroundColorStyle: [Object]
+    }
+  },
+  _draftData: {},
+  _error: null
+}
+QuestCode@Devontaes-MacBook-Pro Google-Sheets-Node % node spreadsheet.js
+Spreadsheet Title: Monthly Transactions
+Title: Settings
+Rows: 25, Column: 4
+Title: Loan
+Rows: 17, Column: 4
+Title: June2020
+Rows: 63, Column: 27
+Title: July2020
+Rows: 50, Column: 22
+Title: August2020
+Rows: 58, Column: 23
+Title: September2020
+Rows: 56, Column: 13
+Title: October2020
+Rows: 55, Column: 13
+Expense Categories
+Books
+Car
+Cleaning Supplies
+Loan Title
+Student Loan
+Expenses 
+Date
+(Wed) 07/1/20
+(Wed) 07/1/20
+(Thu) 07/2/20
+(Fri) 07/3/20
+(Sat) 07/4/20
+(Sun) 07/5/20
+(Mon) 07/6/20
+(Sun) 07/5/20
+(Mon) 07/6/20
+(Tue) 07/7/20
+(Tue) 07/7/20
+(Thu) 07/9/20
+(Fri) 07/10/20
+(Sun) 07/12/20
+(Mon) 07/13/20
+(Mon) 07/13/20
+(Tue) 07/14/20
+(Tue) 07/14/20
+(Wed) 07/15/20
+(Wed) 07/15/20
+Expenses 
+Date
+(Mon) 06/1/20
+(Mon) 06/1/20
+(Mon) 06/1/20
+(Tues) 06/2/20
+(Wed) 06/3/20
+(Wed) 06/3/20
+(Wed) 06/3/20
+(Sat) 06/6/20
+(Mon) 06/8/20
+(Mon) 06/8/20
+(Mon) 06/8/20
+(Mon) 06/8/20
+(Mon) 06/8/20
+(Mon) 06/8/20
+(Thurs) 06/11/20
+(Fri) 06/12/20
+(Fri) 06/12/20
+(Sat) 06/13/20
+(Sun) 06/14/20
+(Sun) 06/14/20
+(Sun) 06/14/20
+(Mon) 06/15/20
+(Mon) 06/15/20
+(Mon) 06/15/20
+(Mon) 06/15/20
+Expenses 
+Date
+(Tue) 09/1/20
+(Thu) 09/3/20
+(Thu) 09/3/20
+(Fri) 09/4/20
+(Fri) 09/4/20
+(Fri) 09/4/20
+(Fri) 09/4/20
+(Fri) 09/4/20
+(Fri) 09/4/20
+(Sat) 09/5/20
+(Sat) 09/5/20
+Expenses 
+Date
+(Fri) 10/2/20
+(Fri) 10/2/20
+(Fri) 10/2/20
+(Fri) 10/2/20
+(Fri) 10/2/20
+(Fri) 10/2/20
+(Sat) 10/3/20
+(Sat) 10/3/20
+(Sun) 10/4/20
+(Sun) 10/4/20
+(Sun) 10/4/20
+Expenses 
+Date
+(Sat) 08/1/20
+(Sat) 08/1/20
+(Sat) 08/1/20
+(Sat) 08/1/20
+(Sat) 08/1/20
+(Sun) 08/2/20
+(Tue) 08/4/20
+(Tue) 08/4/20
+(Tue) 08/4/20
+(Tue) 08/4/20
+(Tue) 08/4/20
+(Wed) 08/5/20
+(Wed) 08/5/20
+(Thu) 08/6/20
+(Sat) 08/8/20
+(Sun) 08/9/20
+(Mon) 08/10/20
+(Mon) 08/10/20
+(Tue) 08/11/20
+(Fri) 08/14/20
+(Fri) 08/14/20
+QuestCode@Devontaes-MacBook-Pro Google-Sheets-Node % Apple
+Entertainment
+$2.99
+$275.33
+(Tue) 08/18/20
+Tape & Screws
+Home Depot
+Tools
+$13.06
+Books
+(Tue) 08/18/20
+Groceries 
+Vons/Pavilions
+Groceries
+$61.81
+sum  Amount 
+(Fri) 08/21/20
+John MacArthur NT Commentaries (PDF)
+Ebay
+Home
+$9.91
+(Fri) 08/21/20
+panda express
+N/A
+Fast Food/Restaurant
+$13.06
+Tools
+(Fri) 08/21/20
+AAA added member 
+N/A
+Car
+$22.50
+sum  Amount 
+(Sat) 08/22/20
+candels/beauty stuff
+Marshall's
+Gifts
+$67.69
+13.06
+(Sat) 08/22/20
+Dollar Tree
+Home
+$8.27
+(Sat) 08/22/20
+bridal shower/ kelly bday
+N/A
+Gifts
+$30.00
+(Sun) 08/23/20
+Gas
+Costco
+Car
+$60.18
+(Sun) 08/23/20
+Tithes
+Compass Bible Church
+Tithes
+$100.00
+(Tue) 08/25/20
+el pollo loco for sadie's family
+N/A
+Gifts
+$21.55
+(Tue) 08/25/20
+statefarm
+Statefarm
+Car
+$107.14
+(Wed) 08/26/20
+utilities 
+The Landing at Long Beach
+Utilities
+$162.12
+(Thu) 08/27/20
+panda express
+N/A
+Fast Food/Restaurant
+$16.65
+(Fri) 08/28/20
+Costco
+Groceries
+$218.42
+(Fri) 08/28/20
+hicups 
+N/A
+Fast Food/Restaurant
+$5.75
+(Fri) 08/28/20
+TMS Application(Discover Card)
+N/A
+School
+$50.00
+(Sat) 08/29/20
+Gas
+Costco
+Car
+$48.25
+(Sat) 08/29/20
+CSUF Official Transcripts for TMS
+N/A
+School
+$6.50
+(Sat) 08/29/20
+Apple Music
+Apple
+Entertainment
+$14.99
+(Sun) 08/30/20
+dollar tree
+Dollar Tree
+Home
+$8.82
+(Sun) 08/30/20
+tithes 
+Compass Bible Church
+Tithes
+$100.00
+(Sun) 08/30/20
+gas
+Costco
+Car
+$36.69
+(Mon) 08/31/20
+Yeti Mug
+Amazon
+Gifts
+$33.05
+Total
+$4,832.66
+Expenses 
+Car
+Groceries
+Health
+Internet
+Tithes
+Date
+Description 
+Store
+Category 
+Amount 
+Total
+sum  Amount 
+sum  Amount 
+sum  Amount 
+sum  Amount 
+sum  Amount 
+(Fri) 10/2/20
+Albertson
+N/A
+Groceries
+$44.46
+$2,510.96
+$152.64
+(Fri) 10/2/20
+Raising Canes 
+N/A
+Fast Food/Restaurant
+$17.47
+Max Amount
+Car Insurance
+Gifts
+Phone Bill
+(Fri) 10/2/20
+Groceries
+Costco
+Groceries
+$108.18
+$2,155.00
+sum  Amount 
+sum  Amount 
+sum  Amount 
+(Fri) 10/2/20
+Burlington Coat Factory
+N/A
+Clothing
+$49.49
+Loan Remaining
+(Fri) 10/2/20
+Rent
+The Landing at Long Beach
+Rent
+$2,155.00
+$4,374.16
+Car Other
+Cleaning Supplies
+Rent
+(Fri) 10/2/20
+Utilites
+The Landing at Long Beach
+Utilities
+$136.36
+sum  Amount 
+sum  Amount 
+sum  Amount 
+(Sat) 10/3/20
+Thrifty Ice Cream
+Rite Aid
+Groceries
+$8.00
+(Sat) 10/3/20
+Car Wash
+Circle Marina Speedwash
+Car
+$29.99
+Car Maintenance
+Clothing
+Electricity
+(Sun) 10/4/20
+Gasoline
+Costco
+Car
+$31.11
+sum  Amount 
+sum  Amount 
+sum  Amount 
+(Sun) 10/4/20
+Gasoline
+Costco
+Car
+$23.61
+(Sun) 10/4/20
+Phone Bill
+T-Mobile
+Phone Bill
+$100.00
+Fuel
+Entertainment
+Water
+(Tue) 10/6/20
+Internet
+Frontier
+Internet
+$55.01
+sum  Amount 
+sum  Amount 
+sum  Amount 
+(Thu) 10/8/20
+DMV new DL
+N/A
+Car
+$30.69
+(Fri) 10/9/20
+DMV registration 
+N/A
+Car
+$200.00
+Eating Out
+(Fri) 10/9/20
+Boon chore chart
+N/A
+Home
+$34.13
+sum  Amount 
+(Fri) 10/9/20
+Old Navy
+N/A
+Clothing
+$71.61
+$17.47
+(Fri) 10/9/20
+Alberston
+N/A
+Groceries
+$9.99
+Home
+(Fri) 10/9/20
+Costco Gas
+Costco
+Car
+$58.00
+sum  Amount 
+(Sat) 10/10/20
+Isabel Shopping
+Marshall's
+Clothing
+$21.73
+(Sat) 10/10/20
+Smart and Final
+N/A
+Groceries
+$48.62
+Home Decor/Supplies
+(Sun) 10/11/20
+Donuts
+N/A
+Fast Food/Restaurant
+$12.75
+sum  Amount 
+(Sun) 10/11/20
+Delta Airplane Ticket
+N/A
+Vacation/Trip
+$561.40
+(Sun) 10/11/20
+Travel Insurance for Flight
+N/A
+Vacation/Trip
+$47.26
+Apple
+(Mon) 10/12/20
+Percussion
+Ebay
+Health
+$47.39
+sum  Amount 
+(Tue) 10/13/20
+Vons
+Vons/Pavilions
+Groceries
+$173.00
+(Tue) 10/13/20
+Apple Service
+Apple
+Entertainment
+$0.99
+Home Other
+(Thu) 10/15/20
+Devontae's Shoes Gift from Izzy
+N/A
+Clothing
+$43.21
+sum  Amount 
+(Thu) 10/15/20
+Insurance
+Allstate
+Car
+$173.00
+(Sat) 10/17/20
+So Cal Edison
+Socal Edison
+Utilities
+$43.18
+Books
+sum  Amount 
+Tools
+sum  Amount 
+Total
+$4,335.63
+Expenses 
+Income
+Car
+Groceries
+Health
+Internet
+Tithes
+Date
+Description 
+Store
+Category 
+Amount 
+Date
+Description 
+Category 
+Gift Card
+Amount 
+sum  Amount 
+sum  Amount 
+sum  Amount 
+sum  Amount 
+sum  Amount 
+(Mon) 06/1/20
+Target baby gift/wedding
+Target
+Gifts
+$112.96
+(Wed) 06/10/20
+debit card
+Gift/Reward
+Walmart
+$100.00
+752.47
+620
+92.72
+150
+(Mon) 06/1/20
+T-Mobile
+Phone Bill
+$90.00
+(Mon) 06/1/20
+wedding check
+Gift/Reward
+N/A
+$400.00
+Car Insurance
+Gifts
+Phone Bill
+(Mon) 06/1/20
+Gas
+Costco
+Car
+$44.79
+(Fri) 04/17/20
+Gift/Reward
+Amazon
+$250.00
+sum  Amount 
+sum  Amount 
+sum  Amount 
+(Tues) 06/2/20
+Kohls
+N/A
+Clothing
+$43.33
+Total
+$750.00
+227.37
+349.5
+90
+(Wed) 06/3/20
+Bagel shop gift to Gerry
+N/A
+Gifts
+$6.20
+Car Other
+Cleaning Supplies
+Rent
+(Wed) 06/3/20
+Costco
+Groceries
+$102.71
+sum  Amount 
+sum  Amount 
+sum  Amount 
+(Wed) 06/3/20
+Car Wash
+N/A
+Car
+$49.00
+196.95
+(Sat) 06/6/20
+Bug Wash
+Autozone
+Car
+$3.40
+Car Maintenance
+Clothing
+Electricity
+(Mon) 06/8/20
+Shutterfly pic zelled Marcy
+N/A
+Gifts
+$50.00
+sum  Amount 
+sum  Amount 
+sum  Amount 
+(Mon) 06/8/20
+Gas
+Costco
+Car
+$45.54
+43.33
+(Mon) 06/8/20
+House Decor 
+Hobby Lobby
+Home
+$128.79
+Fuel
+Entertainment
+Water
+(Mon) 06/8/20
+Gas
+Costco
+Car
+$30.99
+sum  Amount 
+sum  Amount 
+sum  Amount 
+(Mon) 06/8/20
+House Decor/supplies 
+Marshall's
+Home
+$124.87
+328.15
+59.04
+(Mon) 06/8/20
+Headlights
+Ebay
+Car
+$134.55
+Eating Out
+Gas
+(Thurs) 06/11/20
+Marriage Certificates
+N/A
+Home
+$45.00
+sum  Amount 
+sum  Amount 
+(Fri) 06/12/20
+Northgate
+Groceries
+$46.77
+47.07
+23.4
+(Fri) 06/12/20
+Fan/shirts/food
+Costco
+Groceries
+$239.25
+Home
+Trash
+(Sat) 06/13/20
+iCloud:50 GB Storage Plan
+Apple
+Entertainment
+$0.99
+sum  Amount 
+sum  Amount 
+(Sun) 06/14/20
+Gas
+Costco
+Car
+$36.83
+298.66
+(Sun) 06/14/20
+Eating out Veggie grill
+N/A
+Entertainment
+$12.07
+Home Decor/Supplies
+Sewer
+(Sun) 06/14/20
+Eating out Pho
+N/A
+Entertainment
+$30.00
+sum  Amount 
+sum  Amount 
+(Mon) 06/15/20
+T Liner Clippers
+Amazon
+Health
+$63.87
+253.66
+(Mon) 06/15/20
+Insurance
+Allstate
+Car
+$173.08
+Apple
+Loan
+(Mon) 06/15/20
+Ups stamps 
+N/A
+Gifts
+$13.00
+sum  Amount 
+sum  Amount 
+(Mon) 06/15/20
+Sent Jerry $40 gas money
+N/A
+Gifts
+$40.00
+6.97
+(Tue) 06/16/20
+iCloud:200 GB Storage Plan
+Apple
+Entertainment
+$2.99
+Home Other
+(Wed) 06/17/20
+George Greek Cafe 
+N/A
+Gifts
+$50.00
+sum  Amount 
+(Wed) 06/17/20
+99cent Store
+N/A
+Groceries
+$17.41
+45
+(Wed) 06/17/20
+Rite Aid
+N/A
+Health
+$11.18
+Books
+(Thu) 06/18/20
+iCloud:200 GB Storage Plan
+Apple
+Entertainment
+$2.99
+sum  Amount 
+(Thu) 06/18/20
+Pavilions: Seal Beach
+Vons/Pavilions
+Groceries
+$8.11
+(Thu) 06/18/20
+CVS: Seal Beach NATIVE Deodorant 
+N/A
+Health
+$14.67
+Tools
+(Sat) 06/20/20
+Floss Replacement
+Amazon
+Health
+$3.00
+sum  Amount 
+(Sun) 06/21/20
+Gas
+Costco
+Car
+$44.28
+(Sun) 06/21/20
+Vons
+Vons/Pavilions
+Groceries
+$39.71
+(Mon) 06/22/20
+Home supplies/Groceries
+Costco
+Groceries
+$151.40
+(Mon) 06/22/20
+Gas (5/12/20-6/15/20)
+N/A
+Utilities
+$23.40
+(Tue) 06/23/20
+Granny flower/card
+N/A
+Gifts
+$14.67
+(Tue) 06/23/20
+Eating out Happy Ice
+N/A
+Entertainment
+$5.00
+(Wed) 06/24/20
+Insurance
+Statefarm
+Car
+$54.29
+(Wed) 06/24/20
+El Dorado Nature Park Parking
+N/A
+Entertainment
+$5.00
+(Thu) 06/25/20
+Car wash
+N/A
+Car
+$10.00
+(Thu) 06/25/20
+Vons
+Vons/Pavilions
+Groceries
+$14.64
+(Fri) 06/26/20
+Lexi graduation 
+Marshall's
+Gifts
+$62.67
+(Sat) 06/27/20
+Gas
+Costco
+Car
+$38.82
+(Sun) 06/28/20
+Gas
+Costco
+Car
+$33.00
+(Sun) 06/28/20
+Gas
+Costco
+Car
+$53.90
+(Sun) 06/28/20
+Compass Bible Church
+Compass Bible Church
+Tithes
+$150.00
+(Sun) 06/28/20
+Windshield wipers 
+Autozone
+Car
+$27.55
+MOST SPENT
+(Mon) 06/29/20
+ITunes 
+Apple
+Entertainment
+$14.99
+max  Amount 
+(Tue) 06/30/20
+in-n-out
+N/A
+Groceries
+$13.38
+$239.25
+Total
+$2,506.67
+LOAN REMAINING
+12614
+sum  Amount 
+1749.57
+Expenses 
+Car
+Groceries
+Health
+Internet
+Tithes
+Date
+Description 
+Store
+Category 
+Amount 
+Total
+sum  Amount 
+sum  Amount 
+sum  Amount 
+sum  Amount 
+sum  Amount 
+(Tue) 09/1/20
+Two pairs of Glasses from 39Dollar Glasses
+N/A
+Health
+$182.86
+$3,707.27
+$29.99
+$182.86
+(Thu) 09/3/20
+July Rent (dropped off check)
+The Landing at Long Beach
+Rent
+$2,130.00
+Max Amount
+Car Insurance
+Gifts
+Phone Bill
+(Thu) 09/3/20
+Circle Carwash
+Circle Marina Speedwash
+Car
+$29.99
+$2,130.00
+sum  Amount 
+sum  Amount 
+sum  Amount 
+(Fri) 09/4/20
+TMobile Bill
+T-Mobile
+Phone Bill
+$103.50
+Loan Remaining
+(Fri) 09/4/20
+Shopping
+Marshall's
+Clothing
+$56.16
+$4,374.16
+Car Other
+Cleaning Supplies
+Rent
+(Fri) 09/4/20
+Pho Craft
+N/A
+Fast Food/Restaurant
+$26.09
+sum  Amount 
+sum  Amount 
+sum  Amount 
+(Fri) 09/4/20
+Gasoline
+Costco
+Car
+$52.10
+$29.99
+$2,130.00
+(Fri) 09/4/20
+Izzy's Haircut
+N/A
+Health
+$55.00
+Car Maintenance
+Clothing
+Electricity
+(Fri) 09/4/20
+Rite Aid Shoping
+N/A
+Home
+$17.23
+sum  Amount 
+sum  Amount 
+sum  Amount 
+(Sat) 09/5/20
+Fantasy Football (Venmo)
+N/A
+Entertainment
+$20.00
+(Sat) 09/5/20
+Electricity
+Socal Edison
+Utilities
+$40.76
+Fuel
+Entertainment
+Water
+(Sat) 09/5/20
+Car Wash
+Circle Marina Speedwash
+Car
+$10.00
+sum  Amount 
+sum  Amount 
+sum  Amount 
+(Sat) 09/5/20
+Shopping
+Vons/Pavilions
+Groceries
+$27.00
+(Sun) 09/6/20
+On the Rocks(Fai and Kiana)
+N/A
+Fast Food/Restaurant
+$50.00
+Eating Out
+(Tue) 09/8/20
+Native Deodorant Subscription 
+N/A
+Health
+$10.00
+sum  Amount 
+(Wed) 09/9/20
+Costco Gas
+Costco
+Car
+$52.85
+(Thu) 09/10/20
+Lemon Ginger Tea K Cups
+Amazon
+Groceries
+$18.95
+Home
+(Fri) 09/11/20
+Headphones & Food Mixer
+Target
+Home
+$33.05
+sum  Amount 
+(Fri) 09/11/20
+Groceries
+Costco
+Groceries
+$79.43
+(Sat) 09/12/20
+Nails
+N/A
+Health
+$53.00
+Home Decor/Supplies
+(Sat) 09/12/20
+Table Liner
+Ross
+Home
+$14.00
+sum  Amount 
+(Sat) 09/12/20
+Afters Ice Cream
+N/A
+Fast Food/Restaurant
+$19.00
+(Sun) 09/13/20
+Gas
+Costco
+Car
+$19.06
+Apple
+(Sun) 09/13/20
+Shopping
+Walmart
+Groceries
+$88.45
+sum  Amount 
+(Sun) 09/13/20
+Apple Purchase()
+Apple
+Entertainment
+$0.99
+(Mon) 09/14/20
+Insurance
+Allstate
+Car
+$173.08
+Home Other
+(Mon) 09/14/20
+Mouth Sore(CVS)
+N/A
+Health
+$12.12
+sum  Amount 
+(Tue) 09/15/20
+Tithes
+Compass Bible Church
+Tithes
+$100.00
+(Wed) 09/16/20
+200GB Storage
+Apple
+Entertainment
+$2.99
+Books
+(Wed) 09/16/20
+Long Beach Gas
+N/A
+Utilities
+$19.05
+sum  Amount 
+(Wed) 09/16/20
+Chick-fil-a
+N/A
+Fast Food/Restaurant
+$14.97
+(Thu) 09/17/20
+Biblical Theology Book
+Ebay
+Books
+$21.48
+Tools
+(Thu) 09/17/20
+Pregnancy test cvs 
+N/A
+Health
+$16.36
+sum  Amount 
+(Fri) 09/18/20
+amazon books for kids 
+Amazon
+Books
+$29.38
+(Fri) 09/18/20
+Marshall's 
+Marshall's
+Home
+$78.88
+(Fri) 09/18/20
+Gas 
+Costco
+Car
+$49.49
+(Fri) 09/18/20
+Groceries
+Northgate
+Groceries
+$79.12
+(Fri) 09/18/20
+In-N-Out
+N/A
+Fast Food/Restaurant
+$18.69
+(Sun) 09/20/20
+Panda Express
+N/A
+Fast Food/Restaurant
+$19.96
+(Sun) 09/20/20
+Groceries
+Costco
+Groceries
+$157.16
+(Wed) 09/23/20
+Gas
+Costco
+Car
+$50.00
+(Thu) 09/24/20
+Groceries
+Vons/Pavilions
+Groceries
+$7.98
+(Thu) 09/24/20
+Starbucks
+N/A
+Fast Food/Restaurant
+$3.45
+(Thu) 09/24/20
+Statefarm
+Car
+$107.14
+(Sat) 09/26/20
+Smog Check
+N/A
+Car
+$42.08
+(Sun) 09/27/20
+Tithes
+Compass Bible Church
+Tithes
+$100.00
+(Sun) 09/27/20
+Burlington Coat Factory
+N/A
+Clothing
+$56.89
+(Tue) 09/29/20
+Dollar Tree
+Home
+$5.51
+(Tue) 09/29/20
+Apple Family Plan
+Apple
+Entertainment
+$14.99
+(Tue) 09/29/20
+staples 
+N/A
+Home
+$14.98
+Total
+$4,385.22
+QuestCode@Devontaes-MacBook-Pro Google-Sheets-Node % 

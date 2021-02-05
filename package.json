@@ -1,0 +1,17 @@
+{
+  "name": "google-sheets-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "google-spreadsheet": "^3.0.13",
+    "node-fetch": "^2.6.1"
+  }
+}
