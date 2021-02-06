@@ -3,14 +3,14 @@ const fs = require('fs').promises;
 async function getSumForMonth(sheet_title,multipleSheets=true,print=false) {
   const total = {};
   const sheetLength = sheet_title.length;
-  const month = sheet_title.slice(0,sheetLength-4);
+  const year = sheet_title.substr(sheet_title.length - 4);
   try {
     if (multipleSheets){
-      const data = await fs.readFile(`./json/expenses.json`, 'utf8');
+      const data = await fs.readFile(`./json/expenses${year}.json`, 'utf8');
       var expensesJson = JSON.parse(data);
       expensesJson.forEach(async (month) => {
-        if (month.title == `${sheet_title}_Expenses` || month.title.includes(sheet.title)) {
-          total["Total Amount Spent"] = Number (expensesJson["Total Amount Spent"].toFixed(2));
+        if (month.title == `${sheet_title}_Expenses` || month.title.includes(sheet_title)) {
+          total["Total Amount Spent"] = Number (month["Total Amount Spent"].toFixed(2));
         }
       })
       
@@ -23,7 +23,7 @@ async function getSumForMonth(sheet_title,multipleSheets=true,print=false) {
   } catch (error) {
     console.log(error.red);
   }
-  if (print) { console.log(`Spent ${total.amount} in the month of ${month}`.green); }
+  if (print) { console.log(`Spent ${total.amount} in the month of ${sheet_title.slice(0,sheetLength-4)}`.green); }
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve(total);
@@ -36,9 +36,10 @@ async function getStoresWith(title,sheet_title,multipleSheets=true,print=false) 
   var sum = 0;
   const sheetLength = sheet_title.length;
   const month = sheet_title.slice(0,sheetLength-4);
+  const year = sheet_title.substr(sheet_title.length - 4);
   try {
     if (multipleSheets){
-      const data = await fs.readFile(`./json/expenses.json`, 'utf8');
+      const data = await fs.readFile(`./json/expenses${year}.json`, 'utf8');
       var expensesJson = JSON.parse(data);
       expensesJson.forEach(async (month) => {
         if (month.title == `${sheet_title}_Expenses` || month.title.includes(sheet_title)) {
@@ -71,10 +72,11 @@ async function getCategoryWith(title,sheet_title,multipleSheets=true,print=false
   
   var sum = 0;
   const sheetLength = sheet_title.length;
-  const month = sheet_title.slice(0,sheetLength-4)
+  const month = sheet_title.slice(0,sheetLength-4);
+  const year = sheet_title.substr(sheet_title.length - 4);
   try {
     if (multipleSheets){
-      const data = await fs.readFile(`./json/expenses.json`, 'utf8');
+      const data = await fs.readFile(`./json/expenses${year}.json`, 'utf8');
       var expensesJson = JSON.parse(data);
       expensesJson.forEach(async (month) => {
         if (month.title == `${sheet_title}_Expenses` || month.title.includes(sheet_title)) {
@@ -107,13 +109,14 @@ async function getSumOfCategoryWithStoreName(category,store,sheet_title,multiple
   
   var sum = 0;
   const sheetLength = sheet_title.length;
-  const month = sheet_title.slice(0,sheetLength-4)
+  const month = sheet_title.slice(0,sheetLength-4);
+  const year = sheet_title.substr(sheet_title.length - 4);
   try {
     if (multipleSheets){
-      const data = await fs.readFile(`./json/expenses.json`, 'utf8');
+      const data = await fs.readFile(`./json/expenses${year}.json`, 'utf8');
       var expensesJson = JSON.parse(data);
       expensesJson.forEach(async (month) => {
-        if (month.title == `${sheet_title}_Expenses` || month.title.includes(sheet.title)) {
+        if (month.title == `${sheet_title}_Expenses` || month.title.includes(sheet_title)) {
           month.expenses_for_the_month.forEach( (expense) => {
             if ((expense.category.includes(category) || expense.category == category) &&
                (expense.store.includes(store) || expense.store == store)) {
@@ -148,7 +151,7 @@ async function getStoreWithCategoryWith(storeTitle,categoryTitle,sheet,multipleS
   const month = sheet.title.slice(0,sheetLength-4)
   try {
     if (multipleSheets){
-      const data = await fs.readFile(`./json/expenses.json`, 'utf8');
+      const data = await fs.readFile(`./json/expenses${year}.json`, 'utf8');
       var expensesJson = JSON.parse(data);
       expensesJson.forEach(async (month) => {
         if (month.title == `${sheet.title}_Expenses` || month.title.includes(sheet.title)) {

@@ -11,18 +11,21 @@ class Expenses {
         this.yearlyExpenses = [];
     }
 
-    async getSheets(print=false) {
+    async getSheets(multipleSheets = false,print=false) {
         const sheets = [];
         for (var i = 0; i < this.doc.sheetCount; i++) {
             let sheet = this.doc.sheetsByIndex[i];
-            if (sheet.title == this.title) { 
-                await this.getRows(sheet,print);
-                sheets.push(sheet);
+            if (multipleSheets) {
+                if (sheet.title != "Settings") {
+                    await this.getRows(sheet,multipleSheets,print);
+                    sheets.push(sheet);
+                }
             }
-            else if (sheet.title.includes(this.title)) {
-                console.log(`Getting sheet for ${sheet.title}`);
-                await this.getRows(sheet,true);
-                sheets.push(sheet,print);
+            else {
+                if (sheet.title == this.title  || sheet.title.includes(this.title)) { 
+                    await this.getRows(sheet,multipleSheets,print);
+                    sheets.push(sheet);
+                }
             }
         }
         return sheets;
@@ -54,23 +57,22 @@ class Expenses {
             }
             if (cell.value == 'Total') {
                 var total = sheet.getCell(row,4).value;
-                if (multipleSheets) { monthlyTotal.push(total); }
             }
         }
 
         sheet_date = new Date(sheet.getCell(2,0).formattedValue);
         this.budgetExpenses = {
             title: sheet.title + sheet_date.getFullYear() +'_Expenses',
-            "Total Amount Spent": monthlyTotal,
+            "Total Amount Spent": total,
             expenses_for_the_month: expenses
         };
         
         if (multipleSheets) { 
+            const year = this.doc.title.substr(this.doc.title.length - 4);
             this.yearlyExpenses.push(this.budgetExpenses);
-            this.logExpenses(this.yearlyExpenses,print);
+            this.logExpenses(this.yearlyExpenses,year,print);
         }
         else {
-            this.budgetExpenses["Total Amount Spent"] = total;
             if (this.log) { this.logExpensesForMonth(this.budgetExpenses,print); }
         }
     }
@@ -87,12 +89,12 @@ class Expenses {
         }
     }
 
-    async logExpenses(expenses,print=false) {
+    async logExpenses(expenses,year,print=false) {
         let data = JSON.stringify(expenses, null, 2);
         // console.log(`Data: ${data}`);
         try {
-            await fs.writeFile('./json/expenses.json', data);
-            if (print) { console.log(`Data written to expenses.json`); }
+            await fs.writeFile(`./json/expenses${year}.json`, data);
+            if (print) { console.log(`Data written to expenses${year}.json`); }
         } catch (error) {
             console.log(error)
         }   

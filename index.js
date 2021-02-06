@@ -8,16 +8,11 @@ const sum = require('./libs/sums');
 const sheet_info = require('./json/sheet_info.json');
 
 const update_sheet = require('./libs/helpers/update_sheet.js');
-let _sheet = sheet_info[2021]
-// Month - 1 to get index of month needed (ex: January = 1; index = 0)
-month = _sheet.months[2-1];
 
 
-const sheetTitle = month;
-const print = false;
 
-console.log(sheetTitle,_sheet.key);
-async function accessSpreadsheet(sheetTitle,update_loan=false,print=false) {
+
+async function accessSpreadsheet(sheetTitle,update_loan=false,multipleSheets = false,print=false) { 
   const doc = new GoogleSpreadsheet(_sheet.key);
   // console.log(doc);
   await doc.useServiceAccountAuth({
@@ -26,6 +21,9 @@ async function accessSpreadsheet(sheetTitle,update_loan=false,print=false) {
   });
 
   await doc.loadInfo();
+  console.log(doc.title);
+  if (!multipleSheets) { console.log(sheetTitle,_sheet.key); }
+  else { console.log(`Updating budget for multiple sheets in ${doc.title.substr(doc.title.length - 4)} using this key: ${_sheet.key}`);}
   // console.log('Spreadsheet Title: ' + doc.title);
   let setting = new Settings(doc);
   // await setting.getSheets();
@@ -53,13 +51,8 @@ async function accessSpreadsheet(sheetTitle,update_loan=false,print=false) {
     }
   }
 
-  
-
-  
-  console.log(doc.title);
   let exp = new Expenses(doc,sheetTitle);
-  const sheets = await exp.getSheets(print);
-  const multipleSheets = sheets.length > 1;
+  const sheets = await exp.getSheets(multipleSheets,print);
 
   if (multipleSheets) {
     sheets.forEach(async sheet => {
@@ -75,5 +68,27 @@ async function accessSpreadsheet(sheetTitle,update_loan=false,print=false) {
   }
 }
 
+let _sheet = sheet_info[2021]
+// Month - 1 to get index of month needed (ex: January = 1; index = 0)
+let chosen_month;// = _sheet.months[2-1];
+const print = false;
+let multipleSheets = true;
+const updateLoan = false;
+
+const args = process.argv.slice(2);
+if (args.length > 0) {
+  creds.months.forEach(month => {
+    if (args[0] == month || (args[0].length > 2 && month.includes(args[0]))) { 
+      multipleSheets = false;
+      chosen_month = month;
+    } 
+    else {
+      console.log(`ERROR: ${args[0]} is not a month or sheet does not exist`);
+      console.log("GOOD BYE!");
+      process.exit();
+    }
+  });
+}
+
 //------------MAIN------------//
-accessSpreadsheet(sheetTitle,true,print);
+accessSpreadsheet(chosen_month,updateLoan,multipleSheets,print);
