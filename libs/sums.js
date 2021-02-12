@@ -33,6 +33,54 @@ async function getSumForMonth(sheet_title,multipleSheets=true,print=false) {
   });
 }
 
+async function getSumForMonthA1(sheet_title,multipleSheets=true,print=false) {
+  const total = {
+    sum: "SUM(",
+    budget: "=(3500 -"
+  };
+  const sheetLength = sheet_title.length;
+  const year = sheet_title.substr(sheet_title.length - 4);
+  try {
+    if (multipleSheets){
+      const data = await fs.readFile(`./json/expense_json/expenses${year}.json`, 'utf8');
+      var expensesJson = JSON.parse(data);
+      expensesJson.forEach(async (month) => {
+        if (month.title == `${sheet_title}_Expenses` || month.title.includes(sheet_title)) {
+          total["Total Amount Spent"] = Number (month["Total Amount Spent"].toFixed(2));
+          month.expenses_for_the_month.forEach(async (expense) =>{
+            if (expense.row == '$E$3')
+              total['sum'] += `${expense.row}`;
+            else
+              total['sum'] += `,${expense.row}`
+          });
+        }
+      })
+      total['sum'] += `)`;
+      total["Left To Spend"] = `${total['budget']} ${total['sum']})`
+    } else {
+      const data = await fs.readFile(`./json/expense_json/${sheet_title}_Expenses.json`, 'utf8');
+      var expensesJson = JSON.parse(data);
+      total["Total Amount Spent"] = Number (expensesJson["Total Amount Spent"].toFixed(2));
+      month.expenses_for_the_month.forEach(async (expense) =>{
+        if (expense.row == '$E$3')
+              total['sum'] += `${expense.row}`;
+            else
+              total['sum'] += `,${expense.row}`
+      });
+      total['sum'] += `)`;
+      total["Left To Spend"] = `${total['budget']} ${total['sum']})`
+    }
+  } catch (error) {
+    console.log(error.red);
+  }
+  if (print) { console.log(`Spent ${total.amount} in the month of ${sheet_title.slice(0,sheetLength-4)}`.green); }
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(total);
+    }, 1500);
+  });
+}
+
 async function getStoresWith(title,sheet_title,multipleSheets=true,print=false) {
   
   var sum = 0;
@@ -145,44 +193,6 @@ async function getSumOfCategoryWithStoreName(category,store,sheet_title,multiple
   if (print) { console.log(`Spent ${sum.toFixed(2)} in buying ${category} at ${store} in the month of ${month}`.cyan); }
   return Promise.resolve(sum.toFixed(2)); 
 }
-
-async function getStoreWithCategoryWith(storeTitle,categoryTitle,sheet,multipleSheets=true,print=false) {
-
-  var sum = 0;
-  const sheetLength = sheet.title.length;
-  const month = sheet.title.slice(0,sheetLength-4)
-  try {
-    if (multipleSheets){
-      const data = await fs.readFile(`./json/expense_json/expenses${year}.json`, 'utf8');
-      var expensesJson = JSON.parse(data);
-      expensesJson.forEach(async (month) => {
-        if (month.title == `${sheet.title}_Expenses` || month.title.includes(sheet.title)) {
-          month.expenses_for_the_month.forEach(async (expense) => {
-            if ((expense.category.includes(categoryTitle) || expense.category == categoryTitle) 
-                    && (expense.store.includes(storeTitle) || expense.store == storeTitle)) {
-                sum += expense.amount;
-            }
-        });
-        }
-      })
-      
-    } else {
-      const data = await fs.readFile(`./json/expense_json/${sheet.title}_Expenses.json`, 'utf8');
-      var expensesJson = JSON.parse(data);
-      expensesJson.expenses_for_the_month.forEach( (expense) => {
-          if ((expense.category.includes(categoryTitle) || expense.category == categoryTitle) 
-                  && (expense.store.includes(storeTitle) || expense.store == storeTitle)) {
-              sum += expense.amount;
-          }
-      });
-    }
-  } catch (error) {
-    console.log(error.red);
-  }
-  if (print) { console.log(`Spent ${sum.toFixed(2)} in buying ${categoryTitle} at ${storeTitle} in the month of ${month}`.yellow); }
-  return Promise.resolve(sum.toFixed(2));
-}
-
 
 async function getSumOfStores(sheet_title,multipleSheets=true,print=false) {
   const sums = {};
@@ -305,4 +315,5 @@ module.exports = {
   getSumOfCategories,
   getSumOfSubCategories,
   getSumForMonth,
+  getSumForMonthA1
 };

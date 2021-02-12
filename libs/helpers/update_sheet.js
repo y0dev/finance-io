@@ -1,7 +1,7 @@
 module.exports = (sum,doc,sheet,multipleSheets,print) => {
 
     var sheet_title = sheet.title + doc.title.substr(doc.title.length - 4);
-    sum.getSumForMonth(sheet_title,multipleSheets,print)
+    sum.getSumForMonthA1(sheet_title,multipleSheets,print)
     .then(result => {
       const column = 'G';
       let row = 2;
@@ -19,7 +19,7 @@ module.exports = (sum,doc,sheet,multipleSheets,print) => {
               break;
             case "Left To Spend":
               sheet.getCellByA1(`${column}4`).value = `${key}`;
-              sheet.getCellByA1(`${column}5`).value = `= 3500 - $G$3`;
+              sheet.getCellByA1(`${column}5`).value = `${element}`;
               break;
             default:
               break;
@@ -28,6 +28,11 @@ module.exports = (sum,doc,sheet,multipleSheets,print) => {
       }
       sheet.saveUpdatedCells();
     });
+
+    // sum.getSumForMonth(sheet_title,multipleSheets,print)
+    // .then(result => {
+      
+    // });
 
     sum.getSumOfCategories(sheet_title,multipleSheets,print)
     .then(result => {
