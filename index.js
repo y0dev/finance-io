@@ -1,5 +1,5 @@
 const { GoogleSpreadsheet } = require('google-spreadsheet');
-const creds = require('./creds.json');
+const creds = require('./json/hidden_json/creds.json');
 const fs = require('fs');
 const Settings = require('./libs/settings.js');
 const Expenses = require('./libs/expenses.js');
@@ -73,22 +73,44 @@ let _sheet = sheet_info[2021]
 let chosen_month;// = _sheet.months[2-1];
 const print = false;
 let multipleSheets = true;
+let foundMonth = false;
 const updateLoan = false;
 
+let callback = (arg,month) => {
+  
+}
 const args = process.argv.slice(2);
 if (args.length > 0) {
   creds.months.forEach(month => {
-    if (args[0] == month || (args[0].length > 2 && month.includes(args[0]))) { 
+    /* 
+     *  How to run program
+     * 
+     *  Run for every sheet in excel
+     *  node index.js 
+     * 
+     *  Run for a specific sheet
+     *  node index.js January
+     *  or
+     *  node index.js Jan
+     * 
+     *  Ex: args[0] = January
+     *  or
+     *  Ex: args[0].length > 2 = Jan
+     * 
+     */ 
+    if ((args[0] == month) || (args[0].length > 2 && month.includes(args[0]))) { 
       multipleSheets = false;
+      foundMonth = true;
       chosen_month = month;
-    } 
-    else {
-      console.log(`ERROR: ${args[0]} is not a month or sheet does not exist`);
-      console.log("GOOD BYE!");
-      process.exit();
     }
   });
+  if(!foundMonth && multipleSheets) {
+    console.log(`ERROR: ${args[0]} is not a month or sheet does not exist`);
+    console.log("GOOD BYE!");
+    process.exit();
+  }
 }
+
 
 //------------MAIN------------//
 accessSpreadsheet(chosen_month,updateLoan,multipleSheets,print);
