@@ -10,10 +10,8 @@ const sheet_info = require('./json/hidden_json/sheet_info.json');
 const update_sheet = require('./libs/helpers/update_sheet.js');
 
 
-
-
 async function accessSpreadsheet(sheetTitle,update_loan=false,multipleSheets = false,print=false) { 
-  const doc = new GoogleSpreadsheet(_sheet.key);
+  const doc = new GoogleSpreadsheet(creds.sheet_names[2021]);
   // console.log(doc);
   await doc.useServiceAccountAuth({
     client_email: creds.client_email,
@@ -22,16 +20,15 @@ async function accessSpreadsheet(sheetTitle,update_loan=false,multipleSheets = f
 
   await doc.loadInfo();
   console.log(doc.title);
-  if (!multipleSheets) { console.log(sheetTitle,_sheet.key); }
-  else { console.log(`Updating budget for multiple sheets in ${doc.title.substr(doc.title.length - 4)} using this key: ${_sheet.key}`);}
+  if (!multipleSheets) { console.log(sheetTitle,doc.spreadsheetId); }
+  else { console.log(`Updating budget for multiple sheets in ${doc.title.substr(doc.title.length - 4)} using this key: ${doc.spreadsheetId}`);}
   // console.log('Spreadsheet Title: ' + doc.title);
   let setting = new Settings(doc);
   // await setting.getSheets();
-
   if (update_loan)
   {
     console.log('Update Loan');
-    const loanSpreadsheet = new GoogleSpreadsheet(creds.sheet_names[2021]);
+    const loanSpreadsheet = new GoogleSpreadsheet(doc.spreadsheetId);
     await loanSpreadsheet.useServiceAccountAuth({
       client_email: creds.client_email,
       private_key:  creds.private_key,
@@ -53,7 +50,7 @@ async function accessSpreadsheet(sheetTitle,update_loan=false,multipleSheets = f
 
   let exp = new Expenses(doc,sheetTitle);
   const sheets = await exp.getSheets(multipleSheets,print);
-
+  
   if (multipleSheets) {
     sheets.forEach(async sheet => {
     await sheet.loadCells();
@@ -68,9 +65,8 @@ async function accessSpreadsheet(sheetTitle,update_loan=false,multipleSheets = f
   }
 }
 
-let _sheet = sheet_info[2021]
 // Month - 1 to get index of month needed (ex: January = 1; index = 0)
-let chosen_month;// = _sheet.months[2-1];
+let chosen_month;
 const print = false;
 let multipleSheets = true;
 let foundMonth = false;
