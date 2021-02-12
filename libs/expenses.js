@@ -80,7 +80,7 @@ class Expenses {
     async logExpensesForMonth(expenses,print=false) {
         let data = JSON.stringify(expenses, null, 2);
         try {
-            await fs.writeFile(`./json/${expenses.title}.json`, data);
+            await fs.writeFile(`./json/expense_json/${expenses.title}.json`, data);
             if (print) { console.log(`Data written to ${expenses.title}.json`); }
             
             
@@ -93,7 +93,7 @@ class Expenses {
         let data = JSON.stringify(expenses, null, 2);
         // console.log(`Data: ${data}`);
         try {
-            await fs.writeFile(`./json/expenses${year}.json`, data);
+            await fs.writeFile(`./json/expense_json/expenses${year}.json`, data);
             if (print) { console.log(`Data written to expenses${year}.json`); }
         } catch (error) {
             console.log(error)

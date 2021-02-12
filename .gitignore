@@ -8,6 +8,7 @@ sample.js
 
 *.txt
 
-json/
+json/expense_json
+json/hidden_json
 
 

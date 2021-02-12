@@ -51,7 +51,7 @@ class Settings {
     logSettings(setting) {
         try {
             let data = JSON.stringify(setting, null, 2);
-            fs.writeFile('./json/settings.json', data);
+            fs.writeFile('./json/other_json/settings.json', data);
             console.log(`Data written to settings.json`.underline);
         } catch (error) {
             console.log(error)

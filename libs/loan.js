@@ -66,7 +66,7 @@ class Loan {
         let data = JSON.stringify(expenses, null, 2);
         // console.log(`Data: ${data}`);
         try {
-            await fs.writeFile('./json/loan.json', data);
+            await fs.writeFile('./json/expense_json/loan.json', data);
             if (print) { console.log(`Data written to loan.json`.underline); }
         } catch (error) {
             console.log(error)

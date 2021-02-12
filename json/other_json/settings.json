@@ -1,0 +1,66 @@
+{
+  "settings": [
+    {
+      "title": "Expense Categories",
+      "settings": [
+        "Books",
+        "Car",
+        "Cleaning Supplies",
+        "Clothing",
+        "Entertainment",
+        "Fast Food/Restaurant",
+        "Gifts",
+        "Groceries",
+        "Health",
+        "Home",
+        "Internet",
+        "Loan",
+        "Phone Bill",
+        "Rent",
+        "School",
+        "Tithes",
+        "Tools",
+        "Utilities",
+        "Vacation/Trip",
+        "Zelle Payment"
+      ]
+    },
+    {
+      "title": "Income Categories",
+      "settings": [
+        "Gift/Reward",
+        "Work"
+      ]
+    },
+    {
+      "title": "Store Names",
+      "settings": [
+        "Allstate",
+        "Amazon",
+        "Apple",
+        "Autozone",
+        "Circle Marina Speedwash",
+        "Compass Bible Church",
+        "Costco",
+        "Dollar Tree",
+        "Ebay",
+        "Frontier",
+        "Hobby Lobby",
+        "Home Depot",
+        "Marshall's",
+        "N/A",
+        "Northgate",
+        "Ralphs",
+        "Rite Aid",
+        "Ross",
+        "Socal Edison",
+        "Statefarm",
+        "T-Mobile",
+        "Target",
+        "The Landing at Long Beach",
+        "Vons/Pavilions",
+        "Walmart"
+      ]
+    }
+  ]
+}

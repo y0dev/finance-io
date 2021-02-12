@@ -6,7 +6,7 @@ async function getSumForMonth(sheet_title,multipleSheets=true,print=false) {
   const year = sheet_title.substr(sheet_title.length - 4);
   try {
     if (multipleSheets){
-      const data = await fs.readFile(`./json/expenses${year}.json`, 'utf8');
+      const data = await fs.readFile(`./json/expense_json/expenses${year}.json`, 'utf8');
       var expensesJson = JSON.parse(data);
       expensesJson.forEach(async (month) => {
         if (month.title == `${sheet_title}_Expenses` || month.title.includes(sheet_title)) {
@@ -15,7 +15,7 @@ async function getSumForMonth(sheet_title,multipleSheets=true,print=false) {
       })
       
     } else {
-      const data = await fs.readFile(`./json/${sheet_title}_Expenses.json`, 'utf8');
+      const data = await fs.readFile(`./json/expense_json/${sheet_title}_Expenses.json`, 'utf8');
       var expensesJson = JSON.parse(data);
       // console.log(expensesJson["Total Amount Spent"]);
       total["Total Amount Spent"] = Number (expensesJson["Total Amount Spent"].toFixed(2));
@@ -39,7 +39,7 @@ async function getStoresWith(title,sheet_title,multipleSheets=true,print=false) 
   const year = sheet_title.substr(sheet_title.length - 4);
   try {
     if (multipleSheets){
-      const data = await fs.readFile(`./json/expenses${year}.json`, 'utf8');
+      const data = await fs.readFile(`./json/expense_json/expenses${year}.json`, 'utf8');
       var expensesJson = JSON.parse(data);
       expensesJson.forEach(async (month) => {
         if (month.title == `${sheet_title}_Expenses` || month.title.includes(sheet_title)) {
@@ -53,7 +53,7 @@ async function getStoresWith(title,sheet_title,multipleSheets=true,print=false) 
       })
       
     } else {
-      const data = await fs.readFile(`./json/${sheet_title}_Expenses.json`, 'utf8');
+      const data = await fs.readFile(`./json/expense_json/${sheet_title}_Expenses.json`, 'utf8');
       var expensesJson = JSON.parse(data);
       expensesJson.expenses_for_the_month.forEach( (expense) => {
         if (expense.store.includes(title) || expense.store == title) {
@@ -76,7 +76,7 @@ async function getCategoryWith(title,sheet_title,multipleSheets=true,print=false
   const year = sheet_title.substr(sheet_title.length - 4);
   try {
     if (multipleSheets){
-      const data = await fs.readFile(`./json/expenses${year}.json`, 'utf8');
+      const data = await fs.readFile(`./json/expense_json/expenses${year}.json`, 'utf8');
       var expensesJson = JSON.parse(data);
       expensesJson.forEach(async (month) => {
         if (month.title == `${sheet_title}_Expenses` || month.title.includes(sheet_title)) {
@@ -89,7 +89,7 @@ async function getCategoryWith(title,sheet_title,multipleSheets=true,print=false
       })
       
     } else {
-      const data = await fs.readFile(`./json/${sheet_title}_Expenses.json`, 'utf8');
+      const data = await fs.readFile(`./json/expense_json/${sheet_title}_Expenses.json`, 'utf8');
       var expensesJson = JSON.parse(data);
       expensesJson.expenses_for_the_month.forEach( (expense) => {
         if (expense.category.includes(title) || expense.category == title) {
@@ -113,7 +113,7 @@ async function getSumOfCategoryWithStoreName(category,store,sheet_title,multiple
   const year = sheet_title.substr(sheet_title.length - 4);
   try {
     if (multipleSheets){
-      const data = await fs.readFile(`./json/expenses${year}.json`, 'utf8');
+      const data = await fs.readFile(`./json/expense_json/expenses${year}.json`, 'utf8');
       var expensesJson = JSON.parse(data);
       expensesJson.forEach(async (month) => {
         if (month.title == `${sheet_title}_Expenses` || month.title.includes(sheet_title)) {
@@ -127,7 +127,7 @@ async function getSumOfCategoryWithStoreName(category,store,sheet_title,multiple
       })
       
     } else {
-      const data = await fs.readFile(`./json/${sheet_title}_Expenses.json`, 'utf8');
+      const data = await fs.readFile(`./json/expense_json/${sheet_title}_Expenses.json`, 'utf8');
       var expensesJson = JSON.parse(data);
       expensesJson.expenses_for_the_month.forEach( (expense) => {
         if ((expense.category.includes(category) || expense.category == category) &&
@@ -151,7 +151,7 @@ async function getStoreWithCategoryWith(storeTitle,categoryTitle,sheet,multipleS
   const month = sheet.title.slice(0,sheetLength-4)
   try {
     if (multipleSheets){
-      const data = await fs.readFile(`./json/expenses${year}.json`, 'utf8');
+      const data = await fs.readFile(`./json/expense_json/expenses${year}.json`, 'utf8');
       var expensesJson = JSON.parse(data);
       expensesJson.forEach(async (month) => {
         if (month.title == `${sheet.title}_Expenses` || month.title.includes(sheet.title)) {
@@ -165,7 +165,7 @@ async function getStoreWithCategoryWith(storeTitle,categoryTitle,sheet,multipleS
       })
       
     } else {
-      const data = await fs.readFile(`./json/${sheet.title}_Expenses.json`, 'utf8');
+      const data = await fs.readFile(`./json/expense_json/${sheet.title}_Expenses.json`, 'utf8');
       var expensesJson = JSON.parse(data);
       expensesJson.expenses_for_the_month.forEach( (expense) => {
           if ((expense.category.includes(categoryTitle) || expense.category == categoryTitle) 
@@ -185,7 +185,7 @@ async function getStoreWithCategoryWith(storeTitle,categoryTitle,sheet,multipleS
 async function getSumOfStores(sheet_title,multipleSheets=true,print=false) {
   const sums = {};
   try {
-    const data = await fs.readFile(`./json/settings.json`, 'utf8');
+    const data = await fs.readFile(`./json/other_json/settings.json`, 'utf8');
     const settingsJSON = JSON.parse(data);
     settingsJSON.settings.forEach(async (setting) => {
       if (setting.title == "Store Names") {
@@ -210,7 +210,7 @@ async function getSumOfStores(sheet_title,multipleSheets=true,print=false) {
 async function getSumOfCategories(sheet_title,multipleSheets=true,print=false) {
   const sums = {};
   try {
-    const data = await fs.readFile(`./json/settings.json`, 'utf8');
+    const data = await fs.readFile(`./json/other_json/settings.json`, 'utf8');
     const settingsJSON = JSON.parse(data);
     settingsJSON.settings.forEach(async (setting) => {
       if (setting.title == "Expense Categories") {
@@ -239,7 +239,7 @@ async function getSumOfSubCategories(sheet_title,multipleSheets=true,print=false
   };
   const sums = {};
   try {
-    const data = await fs.readFile(`./json/settings.json`, 'utf8');
+    const data = await fs.readFile(`./json/other_json/settings.json`, 'utf8');
     const settingsJSON = JSON.parse(data);
     settingsJSON.settings.forEach(async (setting) => {
       if (setting.title == "Expense Categories") {
@@ -273,7 +273,7 @@ async function getSumOfSubCategories(sheet_title,multipleSheets=true,print=false
 async function updateLoanSum(print=false) {
   try {
     var sum = 0;
-    const data = await fs.readFile(`./json/loan.json`, 'utf8');
+    const data = await fs.readFile(`./json/expense_json/loan.json`, 'utf8');
     const loanJson = JSON.parse(data);
     
     loanJson.payments.forEach( (loan_payment) => {

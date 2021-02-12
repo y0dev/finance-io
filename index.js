@@ -5,7 +5,7 @@ const Settings = require('./libs/settings.js');
 const Expenses = require('./libs/expenses.js');
 const Loan = require('./libs/loan.js');
 const sum = require('./libs/sums');
-const sheet_info = require('./json/sheet_info.json');
+const sheet_info = require('./json/hidden_json/sheet_info.json');
 
 const update_sheet = require('./libs/helpers/update_sheet.js');
 
