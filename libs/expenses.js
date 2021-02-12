@@ -49,7 +49,7 @@ class Expenses {
                         store: sheet.getCell(row,2).value,
                         category: sheet.getCell(row,3).value,
                         amount: sheet.getCell(row,4).value,
-                        row: cell._row+1
+                        row: `$E$${cell._row+1}`
                     };
                     
                     expenses.push(expense);
