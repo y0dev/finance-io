@@ -11,6 +11,7 @@ async function getSumForMonth(sheet_title,multipleSheets=true,print=false) {
       expensesJson.forEach(async (month) => {
         if (month.title == `${sheet_title}_Expenses` || month.title.includes(sheet_title)) {
           total["Total Amount Spent"] = Number (month["Total Amount Spent"].toFixed(2));
+          total["Left To Spend"] = 0;
         }
       })
       
@@ -19,6 +20,7 @@ async function getSumForMonth(sheet_title,multipleSheets=true,print=false) {
       var expensesJson = JSON.parse(data);
       // console.log(expensesJson["Total Amount Spent"]);
       total["Total Amount Spent"] = Number (expensesJson["Total Amount Spent"].toFixed(2));
+      total["Left To Spend"] = 0;
     }
   } catch (error) {
     console.log(error.red);

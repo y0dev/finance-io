@@ -17,7 +17,10 @@ module.exports = (sum,doc,sheet,multipleSheets,print) => {
               sheet.getCellByA1(`${column}2`).value = `${key}`;
               sheet.getCellByA1(`${column}3`).value = `=${element}`;
               break;
-          
+            case "Left To Spend":
+              sheet.getCellByA1(`${column}4`).value = `${key}`;
+              sheet.getCellByA1(`${column}5`).value = `= 3500 - $G$3`;
+              break;
             default:
               break;
           }
