@@ -75,6 +75,7 @@ class Expenses {
         else {
             if (this.log) { this.logExpensesForMonth(this.budgetExpenses,print); }
         }
+        await sheet.addNamedRange(`${sheet.title}!Sample`,`${sheet.title}!A1:A4`);
     }
 
     async logExpensesForMonth(expenses,print=false) {

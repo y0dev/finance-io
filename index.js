@@ -53,15 +53,13 @@ async function accessSpreadsheet(sheetTitle,update_loan=false,multipleSheets = f
   
   if (multipleSheets) {
     sheets.forEach(async sheet => {
-    await sheet.loadCells();
-    update_sheet(sum,doc,sheet,multipleSheets,print);
+      await sheet.loadCells();
+      update_sheet(sum,doc,sheet,multipleSheets,print);
     });
   } else {
     const sheet = sheets[0];
     await sheet.loadCells();
-
     update_sheet(sum,doc,sheet,multipleSheets,print);
-
   }
 }
 
@@ -72,9 +70,7 @@ let multipleSheets = true;
 let foundMonth = false;
 const updateLoan = false;
 
-let callback = (arg,month) => {
-  
-}
+
 const args = process.argv.slice(2);
 if (args.length > 0) {
   creds.months.forEach(month => {
