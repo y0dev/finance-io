@@ -15,11 +15,11 @@ module.exports = (sum,doc,sheet,multipleSheets,print) => {
           switch (key) {
             case "Total Amount Spent":
               sheet.getCellByA1(`${column}2`).value = `${key}`;
-              sheet.getCellByA1(`${column}3`).value = `=${element}`;
+              sheet.getCellByA1(`${column}3`).value = `=SUM(${sheet.title}!TotalAmount)`;
               break;
             case "Left To Spend":
               sheet.getCellByA1(`${column}4`).value = `${key}`;
-              sheet.getCellByA1(`${column}5`).value = `${element}`;
+              sheet.getCellByA1(`${column}5`).value = `=(3500 -$G$3)`;//`${element}`;
               break;
             default:
               break;
