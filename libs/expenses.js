@@ -63,8 +63,8 @@ class Expenses {
         sheet_date = new Date(sheet.getCell(2,0).formattedValue);
         this.budgetExpenses = {
             title: sheet.title + sheet_date.getFullYear() +'_Expenses',
-            "Total Amount Spent": total,
-            expenses_for_the_month: expenses
+            spent: total,
+            monthlyExpenses: expenses
         };
         
         if (multipleSheets) { 
