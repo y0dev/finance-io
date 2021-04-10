@@ -16,7 +16,7 @@ class Expenses {
         for (var i = 0; i < this.doc.sheetCount; i++) {
             let sheet = this.doc.sheetsByIndex[i];
             if (multipleSheets) {
-                if (sheet.title != "Settings") {
+                if (sheet.title != "Settings" && sheet.title != "Loan") {
                     await this.getRows(sheet,multipleSheets,print);
                     sheets.push(sheet);
                 }

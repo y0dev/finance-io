@@ -11,7 +11,7 @@ const update_sheet = require('./libs/helpers/update_sheet.js');
 
 
 async function accessSpreadsheet(sheetTitle,update_loan=false,multipleSheets = false,print=false) { 
-  const doc = new GoogleSpreadsheet(creds.sheet_names[2021]);
+  const doc = new GoogleSpreadsheet(creds.sheet_names[2020]);
   // console.log(doc);
   await doc.useServiceAccountAuth({
     client_email: creds.client_email,
